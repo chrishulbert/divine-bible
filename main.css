@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: var(--font);
+    font-size: 25px;
+    font-weight: var(--font-weight-normal);
+    color: var(--color-white);
+}
+body {
+    background: var(--background);
+    background-color: #000; /* Safari status bars */
+}
+:root { /* https://clrs.cc */
+    --background: linear-gradient(to bottom, #303, #003, #300);
+    --color-navy: #001F3F;
+    --color-blue: #0074D9;
+    --color-aqua: #7FDBFF;
+    --color-teal: #39CCCC;
+    --color-olive: #3D9970;
+    --color-green: #2ECC40;
+    --color-lime: #01FF70;
+    --color-yellow: #FFD800;
+    --color-orange: #FF851B;
+    --color-red: #FF4136;
+    --color-fuchsia: #F012BE;
+    --color-purple: #B10DC9;
+    --color-maroon: #85144B;
+    --color-white: #fff;
+    --color-silver: #DDDDDD;
+    --color-gray: #AAAAAA;
+    --color-black: #000;
+    /* --font: "Metal Mania", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif; */
+    --font: "Noticia Text", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    --font-weight-normal: 400,
+}
+
+#photo {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+}
+.grain {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: image-set(url('grain.png') 3x) repeat;
+    xbackground: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1' numOctaves='1' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+    opacity: 0.1;
+}
+.dim {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    background: #000;
+    opacity: 0.5;
+}
+.outer {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1rem;
+    overflow-y: auto;
+}
+#text {
+    text-align: justify;
+    max-width: 30rem;
+    line-height: 150%;
+}
+#location {
+    font-style: italic;
+    color: var(--color-silver);
+}

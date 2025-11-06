@@ -12,6 +12,9 @@ html, body {
     font-weight: var(--font-weight-normal);
     color: var(--color-white);
 }
+button {
+    font: inherit;
+}
 body {
     background: var(--background);
     background-color: #000; /* Safari status bars */
@@ -67,6 +70,32 @@ body {
     inset: 0;
     z-index: 4;
     display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+#topics {
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom, #443344ee, #222233ee);
+    color: var(--color-white);
+}
+button:active {
+    opacity: 0.5;
+}
+#verse {
+    flex: 1;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

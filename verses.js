@@ -1,6 +1,6 @@
 // TODO change to FBV.
 
-export const healing = [
+const healing = [
 { l: '1 Peter 2:24', t: "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds, you have been healed." },
 { l: '3 John 1:2', t: "Dear friend, I pray that you may enjoy good health and that all may go well with you" },
 { l: 'Acts 10:38', t: "God anointed Jesus of Nazareth with the Holy Spirit and power, and how he went around doing good and healing all who were under the power of the devil, because God was with him." },
@@ -81,3 +81,11 @@ export const healing = [
 { l: 'Psalm 6:2', t: "Have mercy on me, Lord, for I am faint; heal me, Lord, for my bones are in agony." },
 { l: 'Revelation 21:4', t: "He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away." },
 ];
+
+export const topics = [
+    { id: 'healing', name: 'Healing', verses: healing },
+    { id: 'blessing', name: 'Blessing', verses: healing },
+    { id: 'sanctification', name: 'Sanctification', verses: healing },
+];
+
+

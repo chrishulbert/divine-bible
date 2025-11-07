@@ -83,12 +83,27 @@ body {
     gap: 1rem;
 }
 button {
-    border: none;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
-    background: linear-gradient(to bottom, #443344ee, #222233ee);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ffffff33;
+    font-size: 1.2rem;
+    background: linear-gradient(to bottom, #00000022, #00000088);
     color: var(--color-white);
+}
+button#back {
+    padding: 0;
+    font: serif;
+    align-self: start;
+    aspect-ratio: 1;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button#back svg {
+    width: 60%;
+    height: 60%;
 }
 button:active {
     opacity: 0.5;
@@ -97,9 +112,16 @@ button:active {
     flex: 1;
     display: none;
     flex-direction: column;
+    align-items: stretch;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+.verse-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem;
     gap: 1rem;
     overflow-y: auto;
 }

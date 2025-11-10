@@ -16,13 +16,20 @@ function main() {
     const topics = document.getElementById('topics');
     for (const t of verses.topics) {
         const b = document.createElement('button');
+        b.className = 'topic';
         b.textContent = t.name;
         b.addEventListener('touchstart', () => {}); // Otherwise active doesn't show.
         b.addEventListener('click', () => {
             window.location.hash = t.id;
-        })
+        });
         topics.appendChild(b);
     }
+    
+    const back = document.getElementById('back');
+    back.addEventListener('touchstart', () => {});
+    back.addEventListener('click', () => {
+        window.location.hash = undefined;
+    });
     
     // Route to the selected topic:
     routerInit();

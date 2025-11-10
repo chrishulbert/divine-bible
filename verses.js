@@ -18,7 +18,7 @@ const healing = [
 { l: 'Isaiah 53:4', t: "Surely he took up our pain and bore our suffering, yet we considered him punished by God, stricken by him, and afflicted." },
 { l: 'Isaiah 53:5', t: "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds, we are healed." },
 { l: 'Isaiah 57:18-19', t: "'I have seen his ways, but I will heal him; I will lead him and restore comfort to him and his mourners, creating the fruit of the lips. Peace, peace, to the far and to the near,' says the Lord, 'and I will heal him.'" },
-{ l: 'Isaiah 58:11', t: "And the LORD will guide you continually and satisfy your desire in scorched places and make your bones strong" },
+{ l: 'Isaiah 58:11', t: "And the LORD will guide you continually and satisfy your desire in scorched places and make your bones strong." },
 { l: 'Isaiah 58:8', t: "Then shall your light break forth like the dawn, and your healing shall spring up speedily; your righteousness shall go before you; the glory of the Lord shall be your rear guard." },
 { l: 'James 5:14-15', t: "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. And the prayer of faith will save the one who is sick, and the Lord will raise him up." },
 { l: 'James 5:16', t: "Therefore, confess your sins to one another and pray for one another, that you may be healed. The prayer of a righteous person has great power as it is working." },
@@ -127,6 +127,6 @@ const holySpiritAndSanctification = [
 
 export const topics = [
     { id: 'healing', name: 'Healing', verses: healing },
-    { id: 'sanctification', name: 'Sanctification', verses: holySpiritAndSanctification },
+    { id: 'spirit', name: 'Holy Spirit', verses: holySpiritAndSanctification },
     // { id: 'blessing', name: 'Blessing', verses: healing },
 ];

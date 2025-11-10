@@ -65,6 +65,7 @@ const healing = [
 { l: 'Proverbs 3:8', t: "This will bring health to your body and nourishment to your bones." },
 { l: 'Proverbs 4:20-22', t: "My son, be attentive to my words; incline your ear to my sayings. Let them not escape from your sight; keep them within your heart. For they are life to those who find them, and healing to all their flesh." },
 { l: 'Psalm 103:2-3', t: "Bless the Lord, O my soul, and forget not all his benefits, who forgives all your iniquity, who heals all your diseases." },
+{ l: 'Psalm 103:5', t: "He fills my life with all that's good; he makes me young again, strong as an eagle." },
 { l: 'Psalm 107:19-20', t: "Then they cried to the Lord in their trouble, and he delivered them from their distress. He sent out his word and healed them, and delivered them from their destruction." },
 { l: 'Psalm 121:7-8', t: "The LORD will protect you from all evil; He will keep your soul. The LORD will guard your going out and your coming in From this time forth and forever." },
 { l: 'Psalm 145:18', t: "The Lord is near to all who call on him, to all who call on him in truth." },

@@ -5,7 +5,7 @@
 }
 *, *::before, *::after { box-sizing: border-box; }
 html, body {
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     font-family: var(--font);
     font-size: 25px;
@@ -18,6 +18,7 @@ button {
 body {
     background: var(--background);
     background-color: #000; /* Safari status bars */
+    position: relative; /* So the absolute children anchor to this */
 }
 :root { /* https://clrs.cc */
     --background: linear-gradient(to bottom, #303, #003, #300);
@@ -72,6 +73,10 @@ body {
     display: flex;
     align-items: stretch;
     justify-content: stretch;
+    padding-top: max(0.5rem, env(safe-area-inset-top));
+    padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+    padding-left: max(0.5rem, env(safe-area-inset-left));
+    padding-right: max(0.5rem, env(safe-area-inset-right));
 }
 #topics {
     flex: 1;
@@ -79,7 +84,6 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
-    padding: 1rem;
     gap: 1rem;
 }
 button {
@@ -113,7 +117,6 @@ button:active {
     display: none;
     flex-direction: column;
     align-items: stretch;
-    padding: 0.5rem;
     gap: 1rem;
 }
 .verse-content {

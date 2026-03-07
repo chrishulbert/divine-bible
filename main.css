@@ -97,7 +97,7 @@ button {
 button#back {
     padding: 0;
     font: serif;
-    align-self: start;
+    align-self: center;
     aspect-ratio: 1;
     width: 2rem;
     height: 2rem;

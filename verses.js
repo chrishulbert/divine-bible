@@ -448,6 +448,7 @@ const rewards = [
 { l: 'Romans 8:18', t: "For I consider that the sufferings of this present time are not worth comparing with the glory that is to be revealed to us." },
 { l: 'Ruth 2:12', t: "May the LORD repay you for what you have done. May you be richly rewarded by the LORD, the God of Israel, under whose wings you have come to take refuge." },
 ];
+
 // TODO badasses of the bible.
 
 export const topics = [

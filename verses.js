@@ -449,6 +449,50 @@ const rewards = [
 { l: 'Ruth 2:12', t: "May the LORD repay you for what you have done. May you be richly rewarded by the LORD, the God of Israel, under whose wings you have come to take refuge." },
 ];
 
+const tithing = [
+{ l: 'Genesis 14:19-20', t: "And he blessed him and said, 'Blessed be Abram by God Most High, Possessor of heaven and earth; and blessed be God Most High, who has delivered your enemies into your hand!' And Abram gave him (Melchizedek) a tenth of everything." },
+{ l: 'Genesis 28:20-22', t: "Then Jacob made a vow, saying, 'If God will be with me and will keep me in this way that I go... then the Lord shall be my God, and this stone, which I have set up for a pillar, shall be God's house. And of all that you give me I will give a full tenth to you.'" },
+{ l: 'Leviticus 27:30', t: "Every tithe of the land, whether of the seed of the land or of the fruit of the trees, is the Lord's; it is holy to the Lord." },
+{ l: 'Leviticus 27:32', t: "And every tithe of herds and flocks, every tenth animal of all that pass under the herdsman's staff, shall be holy to the Lord." },
+{ l: 'Numbers 18:21', t: "To the Levites I have given every tithe in Israel for an inheritance, in return for their service that they do, their service in the tent of meeting." },
+{ l: 'Numbers 18:26', t: "Moreover, you shall speak and say to the Levites, 'When you take from the people of Israel the tithe that I have given you from them for your inheritance, then you shall present a contribution from it to the Lord, a tithe of the tithe.'" },
+{ l: 'Deuteronomy 12:5-6', t: "But you shall seek the place that the Lord your God will choose out of all your tribes to put his name and make his habitation there. There you shall go, and there you shall bring your burnt offerings and your sacrifices, your tithes and the contribution that you present..." },
+{ l: 'Deuteronomy 12:17-18', t: "You may not eat within your towns the tithe of your grain or of your wine or of your oil, or the firstborn of your herd or of your flock... but you shall eat them before the Lord your God in the place that the Lord your God will choose, you, your children, your servants, and the Levite." },
+{ l: 'Deuteronomy 14:22', t: "You shall tithe all the yield of your seed that comes from the field year by year." },
+{ l: 'Deuteronomy 14:28-29', t: "At the end of every three years you shall bring out all the tithe of your produce in the same year and lay it up within your towns. And the Levite, because he has no portion or inheritance with you, and the sojourner, the fatherless, and the widow, who are within your towns, shall come and eat and be filled, that the Lord your God may bless you in all the work of your hands that you do." },
+{ l: 'Deuteronomy 26:12-15', t: "When you have finished paying all the tithe of your produce in the third year, which is the year of tithing, giving it to the Levite, the sojourner, the fatherless, and the widow, so that they may eat within your towns and be filled; then you shall say before the Lord your God: Look down from your holy habitation, from heaven, and bless your people" },
+{ l: '2 Chronicles 31:4-5', t: "And he commanded the people who lived in Jerusalem to give the portion due to the priests and the Levites, that they might give themselves to the Law of the Lord. As soon as the command was spread abroad, the people of Israel gave in abundance the firstfruits of grain, wine, oil, honey, and of all the produce of the field. And they brought in abundantly the tithe of everything." },
+{ l: 'Nehemiah 10:37-38', t: "...and to bring to the Levites the tithes from our ground, for it is the Levites who collect the tithes in all our rural towns. And the priest, the son of Aaron, shall be with the Levites when the Levites receive the tithes. And the Levites shall bring up the tithe of the tithes to the house of our God, to the chambers of the storehouse." },
+{ l: 'Nehemiah 12:44', t: "On that day men were appointed over the storerooms, the contributions, the firstfruits, and the tithes, to gather into them the portions required by the Law for the priests and for the Levites..." },
+{ l: 'Nehemiah 13:12', t: "Then all Judah brought the tithe of the grain, wine, and oil into the storehouses." },
+{ l: 'Amos 4:4', t: "Come to Bethel, and transgress; to Gilgal, and multiply transgression; bring your sacrifices every morning, your tithes every three days. [sarcastic but hints that tithing is tri-yearly]" },
+{ l: 'Malachi 3:8-10', t: "Will man rob God? Yet you are robbing me. But you say, 'How have we robbed you?' In your tithes and contributions. You are cursed with a curse, for you are robbing me, the whole nation of you. Bring the full tithe into the storehouse, that there may be food in my house. And thereby put me to the test, says the Lord of hosts, if I will not open the windows of heaven for you and pour down for you a blessing until there is no more need." },
+{ l: 'Matthew 23:23', t: "Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier matters of the law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others. [Jesus, 'you ought' = under mosaic covenant]" },
+{ l: 'Luke 11:42', t: "But woe to you Pharisees! For you tithe mint and rue and every herb, and neglect justice and the love of God. These you ought to have done, without neglecting the others. [Jesus]" },
+{ l: 'Luke 18:12', t: "I fast twice a week; I give tithes of all that I get. [Spoken by the Pharisee in Jesus' parable of the Pharisee and the Tax Collector]" },
+{ l: 'Hebrews 7:1-2', t: "For this Melchizedek, king of Salem, priest of the Most High God, met Abraham returning from the slaughter of the kings and blessed him, and to him Abraham apportioned a tenth part of everything... [Levites were under Abraham, and Abraham was under Melchizedek, and Jesus is in the order of Melchizedek, thus Jesus outranks the Levitical system.]" },
+{ l: 'Acts 4:34-35', t: "There was not a needy person among them, for as many as were owners of lands or houses sold them and brought the proceeds of what was sold 35 and laid it at the apostles' feet, and it was distributed to each as any had need" },
+{ l: 'Acts 20:35', t: "I have shown you that by working hard in this way we must help the weak and remember the words of the Lord Jesus, how he himself said, ‘It is more blessed to give than to receive'" },
+{ l: 'Luke 6:38', t: "Give, and it will be given to you. Good measure, pressed down, shaken together, running over, will be put into your lap. For with the measure you use it will be measured back to you" },
+{ l: 'Luke 12:32-33', t: "It is your Father's good pleasure to give you the kingdom. Sell your possessions, and give to the needy. Provide yourselves with moneybags that do not grow old, with a treasure in the heavens that does not fail, where no thief approaches and no moth destroys." },
+{ l: '1 Corinthians 16:2', t: "On the first day of every week, each of you should set aside _a sum_ [notably not a tithe] of money in keeping with your income, saving it up, so that when I come no collections will have to be made." },
+{ l: '2 Corinthians 8:2', t: "Abundance of joy and their extreme poverty have overflowed in a wealth of generosity [where's my abundance of joy?]" },
+{ l: '2 Corinthians 8:3', t: "They gave according to their means" },
+{ l: '2 Corinthians 8:3', t: "They gave of their own accord" },
+{ l: '2 Corinthians 8:8', t: "I say this (giving) not as a command" },
+{ l: '2 Corinthians 8:13', t: "For I do not mean that others should be eased and you burdened, but that as a matter of fairness your abundance at the present time should supply their need, so that their abundance may supply your need, that there may be fairness [leaners vs lifters?]" },
+{ l: '2 Corinthians 9:5', t: "It (your gift) may be ready as a willing gift, not as an exaction" },
+{ l: '2 Corinthians 9:6', t: "Whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully" },
+{ l: '2 Corinthians 9:7', t: "Each one must give as he has decided in his heart [not via a tithe rule], not reluctantly or under compulsion, for God loves a cheerful giver" },
+{ l: '2 Corinthians 9:10', t: "He who supplies seed to the sower and bread for food will supply and multiply your seed for sowing" },
+{ l: '2 Corinthians 9:11', t: "You will be enriched in every way to be generous" },
+{ l: 'Romans 12:6-8', t: "Having gifts that differ... the one who contributes, in generosity [contributing seems to be a specialised gift]" },
+{ l: 'Hebrews 13:16', t: "Share what you have, for such sacrifices are pleasing to God" },
+{ l: '1 Timothy 6:18', t: "They [the rich] are to be generous and ready to share" },
+{ l: 'Galatians 6:6', t: "Nevertheless, the one who receives instruction in the word should share all good things with their instructor" },
+
+];
+
 // TODO badasses of the bible.
 
 export const topics = [
@@ -456,4 +500,5 @@ export const topics = [
     { id: 'spirit', name: 'Holy Spirit', verses: holySpiritAndSanctification },
     { id: 'blessing', name: 'Blessing', verses: blessing },
     { id: 'rewards', name: 'Rewards', verses: rewards },
+    { id: 'tithing', name: 'Tithing', verses: tithing },
 ];
